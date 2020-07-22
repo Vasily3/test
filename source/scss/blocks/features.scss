@@ -1,0 +1,114 @@
+.features__wrapper {
+  padding-top: 113px;
+  padding-bottom: 112px;
+}
+
+.features__title {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 93px;
+
+  font-size: 48px;
+  line-height: 57px;
+  font-weight: 700;
+  color: $color-white;
+  text-transform: uppercase;
+  text-align: center;
+
+  span {
+    color: $color-orange;
+  }
+}
+
+.features__price {
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__price-first {
+  margin-left: 10px;
+
+  font-size: 36px;
+  color: $color-grey;
+}
+
+.features__price-second {
+  margin-left: 45px;
+
+  font-size: 48px;
+  color: $color-white;
+}
+
+.features__list {
+  @include reset-list;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 112px;
+  margin-bottom: 40px;
+}
+
+.features__item {
+  width: 192px;
+
+  img {
+    margin-bottom: 97px;
+  }
+
+  &--ginger img {
+    display: block;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--nootris {
+    width: auto;
+
+    img {
+      margin-left: 5px;
+      margin-bottom: 2px;
+    }
+  }
+
+  &--virus img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.features__item-description {
+  width: 159px;
+  margin: 0 auto;
+
+  color: $color-white;
+  line-height: 21px;
+  text-align: center;
+
+  span {
+    color: $color-orange;
+  }
+}
+
+.features__item-delivery {
+  margin-left: -8px;
+  margin-bottom: 10px;
+
+  font-size: 36px;
+  line-height: 43px;
+  color: $color-white;
+  text-align: center;
+}
+
+.features__item-special {
+  margin-top: 0;
+
+  font-size: 24px;
+  line-height: 28px;
+  color: $color-orange;
+  text-align: center;
+}

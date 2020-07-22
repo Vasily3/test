@@ -1,0 +1,19 @@
+.button {
+  @include reset-button;
+
+  display: block;
+  margin: 0 auto;
+  min-height: 56px;
+  padding: 0 58px;
+
+  color: $color-black;
+  background-color: $color-orange;
+  text-align: center;
+  border-radius: 7px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+    outline: 0;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link href="css/style.min.css" rel="stylesheet">
+  <title>Nootris</title>
+</head>
+
+<body>
+<div class="sprite" style="display: none;">
+  <include src="build/img/sprite.svg"></include>
+</div>
+
+<header class="header">
+  <div class="header__wrapper wrapper">
+    <a class="header__logo" href="#">
+      <svg width="120" height="34">
+        <use xlink:href="#icon-logo"></use>
+      </svg>
+    </a>
+
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#">FAQ</a></li>
+        <li><a class="nav__link" href="#">Оплата и доставка</a></li>
+        <li><a class="nav__link" href="#">Возврат</a></li>
+        <li><a class="nav__link" href="#">Исследования</a></li>
+        <li><a class="nav__link" href="#">Личный кабинет</a></li>
+      </ul>
+    </nav>
+
+    <a class="header__tel" href="tel:+88006000990">8 (800) 600-09-90</a>
+
+    <a class="header__cart" href="#">
+      <svg width="32" height="28">
+        <use xlink:href="#icon-cart"></use>
+      </svg>
+      <span class="header__cart-quantity">1</span>
+    </a>
+
+  </div>
+</header>
+
+<main>
+  <h1 class="visually-hidden">Nootris - Тонизирующий витаминный напиток с экстрактом имбиря</h1>
+
+  <section class="intro">
+    <div class="intro__wrapper wrapper">
+      <picture>
+        <img class="intro__image" src="img/intro.png" srcset="img/intro@2x.png 2x" alt="intro" width="683" height="835">
+      </picture>
+
+      <h2 class="intro__offer">Активируй иммунитет!</h2>
+      <p class="intro__description">Всего пять секунд в день помогут укрепить иммунитет и повысить защитные силы
+        организма</p>
+      <div class="intro__description-2">
+        <p class="intro__description-2-title">NOOTRIS ПОМОГАЕТ</p>
+        <p class="intro__description-2-description">Вашему организму во время пандемии и сезонных простуд</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="features__wrapper wrapper">
+      <h2 class="features__title">ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА <span>СО СКИДКОЙ -15% ПЕРВЫМ!</span></h2>
+      <div class="features__price">
+        <span class="features__price-first"><del>750₽</del></span>
+        <span class="features__price-second">690₽</span>
+      </div>
+
+      <ul class="features__list">
+        <li class="features__item features__item--ginger">
+          <picture>
+            <img src="img/ginger.png" srcset="img/ginger@2x.png 2x" alt="ginger" width="178" height="138">
+          </picture>
+          <p class="features__item-description">Содержит <span>Имбирь</span></p>
+        </li>
+        <li class="features__item features__item--nootris">
+          <picture>
+            <img src="img/nootris.png" srcset="img/nootris@2x.png 2x" alt="nootris" width="394" height="160">
+          </picture>
+          <p class="features__item-delivery">+ Бесплатная доставка</p>
+          <p class="features__item-special">Специальная цена</p>
+        </li>
+        <li class="features__item features__item--virus">
+          <picture>
+            <img src="img/virus.png" srcset="img/virus@2x.png 2x" alt="virus" width="136" height="144">
+          </picture>
+          <p class="features__item-description">Нейтрализует <span>вирусы</span></p>
+        </li>
+      </ul>
+
+      <button class="features__button button" type="button">Оформить заказ</button>
+    </div>
+  </section>
+</main>
+
+<!--<script src="js/main.js"></script>-->
+</body>
+</html>

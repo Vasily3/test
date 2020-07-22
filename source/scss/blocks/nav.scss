@@ -1,0 +1,20 @@
+.nav__list {
+  @include reset-list;
+
+  display: flex;
+}
+
+.nav__link {
+  padding-right: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  text-decoration: none;
+  color: $color-white;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+    outline: none;
+  }
+}
